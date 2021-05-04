@@ -11,7 +11,6 @@ import org.junit.jupiter.api.Test;
 import utils.AutoRacingStatus;
 
 public class RunningCarsTest {
-
 	ArrayList<Car> carList;
 
 	@BeforeEach
@@ -28,4 +27,5 @@ public class RunningCarsTest {
 		RunningCars runningCars = new RunningCars(carList);
 		assertThat(runningCars.play(2)).isEqualTo(AutoRacingStatus.SUCCESS);
 	}
+	
 }

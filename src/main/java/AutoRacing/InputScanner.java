@@ -26,4 +26,5 @@ public class InputScanner {
 	public static int setRoundCount() {
 		return scanner.nextInt();
 	}
+	
 }
